@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Sora;
+    src: url(../assets/fonts/Sora/Sora-VariableFont_wght.ttf)
+}
+@font-face{
+    font-family: Inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf)
+}
+:root{
+    --Colorbg: #EFF8FF;
+    --Colorfontwhite: #FFFFFF;
+    --Colorbutton: #0F9AFE;
+    --Colorfonth: #6E7275;
+    --Colorfontm: #293145;
+    --FontSora: Sora;
+    --FontInter: Inter;
+}
+
+
+.container-grid{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.header-flex{
+    display: flex;
+    align-items: center;
+        
+}
+.header-flex>img{
+    height: 30px;
+    width: 100px;
+}
+.nav-flex>ul{
+    display: flex;
+    height: 50px;
+    width: 800px;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+.nav-flex>ul>li>a{
+    text-decoration: none;
+    font-family: var(--FontInter);
+    font-size: 16px;
+    color: var(--Colorfonth);
+}
