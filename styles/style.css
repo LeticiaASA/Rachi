@@ -171,4 +171,208 @@
 }
 .main-card3{
     background-color: var(--Colorbg);
+    height: 420px;
+    
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div1-card3>h1{
+    font-family: var(--FontSora);
+    font-size: 30px;
+    text-align:start;
+    color: var(--Colorfontm);
+}
+.div1-card3>p{
+    font-family: var(--FontInter);
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--Colorfonth);
+}
+.divimg-card3>img{
+    height: 60px;
+    width: 120px;
+}
+.div2-card3{
+    height: 400px;
+    width: 400px;
+}
+.main-card4{
+    height: 500px;
+}
+.main-card4>h1{
+    font-family: var(--FontSora);
+    font-size: 30px;
+    text-align: center;
+    color: var(--Colorfontm);
+    padding-top: 30px;
+}
+.main-card4>p{
+    font-family: var(--FontInter);
+    font-size: 12px;
+    text-align: center;
+    color: var(--Colorfonth);
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.planos-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-bronze{
+    background-color: var(--Colorbg);
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.div-bronze>h4{
+    font-family: var(--FontSora);
+    font-size: 18px;
+    color: var(--Colorfontm);
+    padding-top: 30px;
+}
+.div-bronze>img{
+    height: 30px;
+    width: 90px;
+}
+.div-bronze>p{
+    font-family: var(--FontInter);
+    font-size: 12px;
+    color: var(--Colorfonth);
+    text-align: center;
+}
+.div-bronze>button{
+    background-color: var(--Colorbutton);
+    border-radius: 16px;
+    border: none;
+    height: 30px;
+    width: 150px;
+    color: var(--Colorfontwhite);
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.div-prata{
+    background-color: var(--Colorfontm);
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.div-prata>h3{
+    font-family: var(--FontSora);
+    font-size: 18px;
+    color: var(--Colorfontwhite);
+    padding-top: 20px;
+}
+.button1{
+    background-color: var(--Colorbutton);
+    border-radius: 16px;
+    border: none;
+    height: 15px;
+    width: 80px;
+    color: var(--Colorfontwhite);
+    font-size: 8px;
+}
+.div-prata>img{
+    height: 70px;
+    width: 90px;
+    padding-bottom: 40px;
+}
+.div-prata>p{
+    font-family: var(--FontInter);
+    font-size: 12px;
+    color: var(--Colorfonth);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.button2{
+    background-color: var(--Colorbutton);
+    border-radius: 16px;
+    border: none;
+    height: 30px;
+    width: 150px;
+    color: var(--Colorfontwhite);
+    font-size: 12px;
+    margin-bottom: 40px;
+    
+}
+.div-ouro{
+    background-color: var(--Colorbg);
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.div-ouro>h4{
+    font-family: var(--FontSora);
+    font-size: 18px;
+    color: var(--Colorfontm);
+    padding-top: 30px;
+}
+.div-ouro>img{
+    height: 30px;
+    width: 90px;
+}
+.div-ouro>p{
+    font-family: var(--FontInter);
+    font-size: 12px;
+    color: var(--Colorfonth);
+    text-align: center;
+}
+.div-ouro>button{
+    background-color: var(--Colorbutton);
+    border-radius: 16px;
+    border: none;
+    height: 30px;
+    width: 150px;
+    color: var(--Colorfontwhite);
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.card-contato{
+    background-image: url(../assets/images/Group\ 33554.png);
+    height: 300px;
+}
+.content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content3>h1{
+    font-family: var(--FontSora);
+    font-size: 30px;
+    color: var(--Colorfontwhite);
+    padding-top: 40px;
+}
+.content3>p{
+    font-family: var(--FontInter);
+    font-size: 14px;
+    color: var(--Colorfontwhite);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.input-style{
+    align-items: center;
+}
+.card-direitos{
+    height: 50px;
+    font-family: var(--FontSora);
+    color: var(--Colorfontm);
+    text-align: center;
+    padding-top: 15px;
 }
