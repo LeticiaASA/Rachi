@@ -24,7 +24,7 @@
 
 .container-grid{
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1000px;
 }
 .header-flex{
     display: flex;
@@ -49,4 +49,126 @@
     font-family: var(--FontInter);
     font-size: 16px;
     color: var(--Colorfonth);
+}
+.main-card1{
+    background-color: var(--Colorbg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content>article{
+    width: 50%;
+    height: 90%;
+    
+}
+
+.content>article>h1{
+    font-size: 38px;
+    font-family: var(--FontSora);
+}
+.content>article>button{
+    margin-top: 50px;
+    background-color: var(--Colorbutton);
+    border-radius: 20px;
+    color: #FFFFFF;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-family: var(--FontInter);
+    font-size: 14px;
+}
+
+.main-card2>h1{
+    font-family: var(--FontSora);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+.conj-divs{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-conections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-conections>img{
+    height: 60px;
+    width: 60px;
+  
+}
+.div-conections>h4{
+    font-family: var(--FontSora);
+    font-size: 16px;
+    color: var(--Colorfontm);
+    text-align: center;
+    padding-top: 15px;
+}
+.div-conections>p{
+    font-family: var(--FontInter);
+    font-size: 14px;
+    color: var(--Colorfonth);
+    text-align: center;
+    padding-top: 15px;
+}
+.div-gratuito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-gratuito>img{
+    height: 60px;
+    width: 60px;
+}
+.div-gratuito>h4{
+    font-family: var(--FontSora);
+    font-size: 16px;
+    color: var(--Colorfontm);
+    text-align: center;
+    padding-top: 15px;
+}
+.div-gratuito>p{
+    font-family: var(--FontInter);
+    font-size: 14px;
+    color: var(--Colorfonth);
+    text-align: center;
+    padding-top: 15px;
+}
+.div-compartilhamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.div-compartilhamento>img{
+    height: 60px;
+    width: 60px;
+}
+.div-compartilhamento>h4{
+    font-family: var(--FontSora);
+    font-size: 16px;
+    color: var(--Colorfontm);
+    text-align: center;
+    padding-top: 15px;
+}
+.div-compartilhamento>p{
+    font-family: var(--FontInter);
+    font-size: 14px;
+    color: var(--Colorfonth);
+    text-align: center;
+    padding-top: 15px;
+}
+.main-card3{
+    background-color: var(--Colorbg);
 }
