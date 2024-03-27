@@ -435,13 +435,76 @@
         height: 220px;
         width: 240px;
     }
+    .main-card2{
+        height: 710px;
+    }
     .conj-divs{
         height: 635px;
         display: flex;
         flex-direction: column;
     }
+    .div-conections>img{
+        padding-top: 30px;
+        height: 90px;
+        width: 90px;
+    }
+    .div-gratuito>img{
+        height: 80px;
+        width: 80px;
+    }
+    .div-compartilhamento>img{
+        height: 80px;
+        width: 80px;
+    }
+    .main-card3{
+        height: 280px;
+    }
+    .content2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .div1-card3>h1{
+        padding-top: 30px;
+        font-size: 28px;
+        text-align: center;
+    }
+    .div1-card3>p{
+        text-align: center;
+    }
+    .divimg-card3{
+        display: flex;
+        justify-content: center;
+    }
     .div2-card3>img{
         display: none;
     }
-
+    .main-card4{
+        height: 1200px;
+    }
+    .main-card4>h1{
+        font-size: 24px;
+    }
+    .planos-style{
+        flex-direction: column;
+        gap: 40px;
+        }
+    .content3>h1{
+        font-size: 24px;
+    }
+    .input-style{
+        height: 100px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .input-style>::placeholder{
+        font-size: 16px;
+    }
+    .input-style>button{
+        height: 60px;
+        width: 350px;
+        border-radius: 30px;
+        font-size: 18px;
+    }
+    
 }
